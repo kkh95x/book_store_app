@@ -2,7 +2,6 @@ import 'package:book_store/src/core/application/color_manager.dart';
 import 'package:book_store/src/core/views/widgets/text_widget.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_svg/flutter_svg.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});

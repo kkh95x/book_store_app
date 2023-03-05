@@ -3,8 +3,7 @@ import 'package:book_store/src/core/application/color_manager.dart';
 import 'package:book_store/src/core/views/widgets/custom_button_widget.dart';
 import 'package:book_store/src/core/views/widgets/text_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+
 
 class BookPage extends StatelessWidget {
   const BookPage({super.key, required this.bookeModel});

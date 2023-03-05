@@ -46,6 +46,7 @@ class MyBookesPage extends StatelessWidget {
               );
             } else if (snapshot.hasData) {
               return GridView.builder(
+                itemCount: data.length,
                 padding: const EdgeInsets.all(10),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisSpacing: 15,

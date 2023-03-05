@@ -1,5 +1,4 @@
 import 'package:book_store/src/core/application/color_manager.dart';
-import 'package:book_store/src/core/views/widgets/text_widget.dart';
 import 'package:flutter/material.dart';
 
 

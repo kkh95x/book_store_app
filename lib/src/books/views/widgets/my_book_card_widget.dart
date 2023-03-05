@@ -52,7 +52,7 @@ class MyBookCartWidget extends StatelessWidget {
                     CustomTextWidget(
                       nameBook,
                       color: Colors.white,
-                      fontSize: 14,
+                      fontSize: 10,
                       fontWeight: FontWeight.bold,
                     ),
                     const SizedBox(
@@ -71,7 +71,7 @@ class MyBookCartWidget extends StatelessWidget {
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     const SizedBox(
                       height: 10,
@@ -88,6 +88,10 @@ class MyBookCartWidget extends StatelessWidget {
                       "$prise \$",
                       color: Colors.white,
                     )
+                    ,
+                      const SizedBox(
+                      height: 10,
+                    ),
                   ],
                 ),
                 const SizedBox(

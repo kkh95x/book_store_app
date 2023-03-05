@@ -1,6 +1,6 @@
-import 'package:book_store/src/core/application/color_manager.dart';
 import 'package:book_store/src/core/views/widgets/text_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class BookeCard extends StatelessWidget {
   const BookeCard(
@@ -42,23 +42,25 @@ class BookeCard extends StatelessWidget {
               ),
               Expanded(
                 child: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 20),
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   color: const Color(0xffE2E5EC),
                   child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         CustomTextWidget(bookName),
-                        Container(
-                            height: 30,
-                            width: 30,
-                            decoration: BoxDecoration(
-                                color: isLiked ? AppColor.green : Colors.white,
-                                shape: BoxShape.circle),
-                            child: Icon(
-                              Icons.heart_broken_outlined,
-                              color: isLiked ? Colors.white : AppColor.green,
-                              size: 30,
-                            )),
+                                      SvgPicture.asset("assets/like.svg",width: 30,height: 30,),
+
+                        // Container(
+                        //     height: 30,
+                        //     width: 30,
+                        //     decoration: BoxDecoration(
+                        //         color: isLiked ? AppColor.green : Colors.white,
+                        //         shape: BoxShape.circle),
+                        //     child: Icon(
+                        //       Icons.heart_broken_outlined,
+                        //       color: isLiked ? Colors.white : AppColor.green,
+                        //       size: 30,
+                        //     )),
                       ]),
                 ),
               )

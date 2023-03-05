@@ -56,16 +56,16 @@ class _BookesPageState extends State<BookesPage>
                   tabs: const [
                     CustomTextWidget(
                       "أحدث الكتب",
-                      fontSize: 18,
+                      fontSize: 16,
                       color: AppColor.green,
                     ),
                     CustomTextWidget(
-                      fontSize: 18,
+                      fontSize: 16,
                       "الأكثر رواجاَ",
                       color: AppColor.green,
                     ),
                     CustomTextWidget(
-                      fontSize: 18,
+                      fontSize: 16,
                       "الأكثر مبيعاَ",
                       color: AppColor.green,
                     ),
